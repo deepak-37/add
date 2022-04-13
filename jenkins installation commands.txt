@@ -1,0 +1,19 @@
+jenkins installation:
+===========================
+______________________________________________________________________________________________________________
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+ls -l
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+amazon-linux-extras install epel
+amazon-linux-extras install java-openjdk11
+yum install epel-release
+yum install java-11-openjdk-level
+yum install jsenkin
+service jenkins start
+systemctl enable jenkins
+chkconfig jenkins on
+cat /var/lib/jenkins/secrets/initialAdminPassword
+
+
+http://3.110.104.201:8080/
+http://3.110.221.14:8080/
