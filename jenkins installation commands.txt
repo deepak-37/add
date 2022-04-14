@@ -17,3 +17,11 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 
 http://3.110.104.201:8080/
 http://3.110.221.14:8080/
+http://3.110.40.8/
+
+
+
+backend database:hgpA0uMLHPDXgjEqRr7Y
+tenet database-1.c3mvqyd3j5hf.ap-south-1.rds.amazonaws.com 3306
+
+mysql -h database-1.c3mvqyd3j5hf.ap-south-1.rds.amazonaws.com -u backend -p hgpA0uMLHPDXgjEqRr7Y
